@@ -22,6 +22,7 @@ int main()
 		case 1:
 			printf("\n\nDigite um numero: ");
 			scanf("%d", &x);
+			getchar();
 			printf("\nNOT %d", x);
 			printf("(");
 			printbits(x, 32);
@@ -35,8 +36,10 @@ int main()
 		case 2:
 			printf("\n\nDigite um numero: ");
 			scanf("%d", &x);
+			getchar();
 			printf("\n\nDigite outro numero: ");
 			scanf("%d", &y);
+			getchar();
 			printf("\n\n%d", x);
 			printf("(");
 			printbits(x, 32);
@@ -54,8 +57,10 @@ int main()
 		case 3:
 			printf("\n\nDigite um numero: ");
 			scanf("%d", &x);
+			getchar();
 			printf("\n\nDigite outro numero: ");
 			scanf("%d", &y);
+			getchar();
 			printf("\n\n%d", x);
 			printf("(");
 			printbits(x, 32);
@@ -73,8 +78,10 @@ int main()
 		case 4:
 			printf("\n\nDigite um numero: ");
 			scanf("%d", &x);
+			getchar();
 			printf("\n\nDigite outro numero: ");
 			scanf("%d", &y);
+			getchar();
 			printf("\n\n%d", x);
 			printf("(");
 			printbits(x, 32);
@@ -92,8 +99,10 @@ int main()
 		case 5:
 			printf("\n\nDigite um numero: ");
 			scanf("%d", &x);
+			getchar();
 			printf("\n\nDigite outro numero: ");
 			scanf("%d", &y);
+			getchar();
 			printf("\n\n%d", x);
 			printf("(");
 			printbits(x, 32);
@@ -111,8 +120,10 @@ int main()
 		case 6:
 			printf("\n\nDigite um numero: ");
 			scanf("%d", &x);
+			getchar();
 			printf("\n\nDigite outro numero: ");
 			scanf("%d", &y);
+			getchar();
 			printf("\n\n%d", x);
 			printf("(");
 			printbits(x, 32);

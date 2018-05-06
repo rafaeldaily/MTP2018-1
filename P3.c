@@ -1,6 +1,5 @@
 //Nome: Rafael Daily Santos Martins
 //Matrícula: 11721EEL001
-
 #include <stdio.h>
 
 void printbits(unsigned int num, int len) 

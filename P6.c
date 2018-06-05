@@ -1,5 +1,5 @@
 //Nome: Rafael Daily Santos Martins
-//Matrícula: 11721EEL001
+//MatrÃ­cula: 11721EEL001
 #include <stdio.h>
 
 int soma(int quant, int vet[])
@@ -34,6 +34,7 @@ int main()
 	{
 		printf("\nDigite um numero: ");
 		scanf("%d", &vet[i]);
+		getchar();
 	}
 	somatorio = soma(num, vet);
 	printf("Somatorio: %d\nMedia: %f", somatorio, media(num, somatorio));

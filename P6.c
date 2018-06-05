@@ -29,6 +29,7 @@ int main()
 	{
 		printf("Digite a quantidade de numeros: ");
 		scanf("%d", &num);
+		getchar();
 	}while(num<5 && num>20);
 	for(i=0; i<num; i++)
 	{

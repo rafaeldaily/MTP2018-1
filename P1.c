@@ -1,5 +1,5 @@
 //Nome: Rafael Daily Santos Martins
-//Matrícula: 11721EEL001
+//MatrÃ­cula: 11721EEL001
 #include <stdio.h>
 
 int main()
@@ -38,6 +38,5 @@ int main()
 		printf(" eh multiplo de 3");
 	if(estado==1||estado==2)
 		printf(" nao eh");
-	getch();
 	return 0;
 }

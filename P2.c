@@ -1,5 +1,5 @@
 //Nome: Rafael Daily Santos Martins
-//Matrícula: 11721EEL001
+//MatrÃ­cula: 11721EEL001
 #include <stdio.h>
 
 void octaldecimal(int oct[], int num)
@@ -110,6 +110,5 @@ int main()
 			printf ("\nO numero digitado em octal: %o", dec);
 			break;
 	}
-	getch();
 	return 0;
 }

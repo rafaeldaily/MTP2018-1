@@ -17,6 +17,7 @@ int main()
 	printf("1. NOT\n2. AND\n3. OR\n4. XOR\n5. Right Shift\n6. Left Shift");
 	printf("\n\nDigite uma opcao: ");
 	scanf("%d", &d);
+	getchar();
 	switch(d)
 	{
 		case 1:

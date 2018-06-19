@@ -1,5 +1,5 @@
 //Nome: Rafael Daily Santos Martins
-//Matrícula: 11721EEL001
+//MatrÃ­cula: 11721EEL001
 #include <stdio.h>
 
 int main()
@@ -18,6 +18,5 @@ int main()
 		i++;
 	}
 	printf("\nO numero que vc digitou: %d", cum);
-	getch();
 	return 0;
 }

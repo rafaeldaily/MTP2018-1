@@ -139,6 +139,5 @@ int main()
 			printf(")");
 			break;
 	}
-	getch();
 	return 0;
 }

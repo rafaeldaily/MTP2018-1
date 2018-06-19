@@ -10,6 +10,7 @@ int main()
 	{
 		n=0;
 		scanf("%s", bits);
+		getchar();
 		for(i=0; bits[i]!='\0'; i++)
 		{
 			if(bits[i]!='0'&&bits[i]!='1')

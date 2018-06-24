@@ -54,7 +54,7 @@ int main()
 	{
 		case 1: 													//Binario para decimal
 			printf("Digite um binario: ");
-			scanf ("%s", &bits);
+			scanf ("%s", bits);
 			getchar();
 			for(i=0, dec=0; bits[i]; i++) 
 			{
@@ -64,7 +64,7 @@ int main()
 			break;
 		case 2:														//Binario para hexadecimal
 			printf("Digite um binario: ");
-			scanf ("%s", &bits);
+			scanf ("%s", bits);
 			getchar();
 			for(i=0, dec=0; bits[i]; i++) 
 			{

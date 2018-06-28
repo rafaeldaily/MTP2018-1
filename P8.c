@@ -10,13 +10,7 @@ void gera_numeros(float * vetor, int tam)
 		vetor[i] = (float) rand()/(float) RAND_MAX + 0.5f;
 }
 
-float reduce1(float * pini, float * pfim,
-		float (*funcao)(float, float)) 
-{
-	return (pini == pfim)? 0 :
-		(*funcao)(*pini, reduce(pini+1, pfim, funcao));
-}
-float reduce2(float * pini, float * pfim,
+float reduce(float * pini, float * pfim,
 		float (*funcao)(float, float)) 
 {
 	return (pini == pfim)? 1 :
@@ -43,7 +37,7 @@ int main ()
 	scanf("%d", &i);
 	getchar();
 	if(i==1)
-		printf("\nSomatorio = %f", reduce1(vetor, vetor+K, soma));
+		printf("\nSomatorio = %f", reduce1(vetor, vetor+K, soma)-1);
 	else if(i==2)
 		printf("\nProdutorio = %f", reduce2(vetor, vetor+K, produto));
 	else

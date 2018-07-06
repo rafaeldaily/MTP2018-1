@@ -1,3 +1,6 @@
+//Nome: Rafael Daily Santos Martins
+//Matrícula: 11721EEL001
+
 #include <stdio.h>
 #include <stdlib.h>
 #define K 100
@@ -27,19 +30,17 @@ float produto(float a, float b)
 
 int main ()
 {
-	srand(time(0));
+	srand(123456);
 	float vetor[K];
 	int i, d;
 	gera_numeros(vetor, K);
-	for(d=0; d<K; d++)
-		printf("\nNumero[%d] = %f", d+1, vetor[d]);
 	printf("\nDigite 1 para calcular o Somatorio e 2 para calcular o Produtorio: ");
 	scanf("%d", &i);
 	getchar();
 	if(i==1)
-		printf("\nSomatorio = %f", reduce1(vetor, vetor+K, soma)-1);
+		printf("\nSomatorio = %f", reduce(vetor, vetor+K, soma)-1);
 	else if(i==2)
-		printf("\nProdutorio = %f", reduce2(vetor, vetor+K, produto));
+		printf("\nProdutorio = %f", reduce(vetor, vetor+K, produto));
 	else
 		printf("\nOpcao invalida!");
 	return 0;
